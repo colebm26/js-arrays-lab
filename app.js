@@ -65,9 +65,9 @@ numz.forEach(num => {
 })
 
 console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+console.log('fizz:', fizz);
+console.log('buzz:', buzz);
+console.log('fizzbuzz:', fizzbuzz);
 //Exercise 13
 const numArrays = [
     [100, 5, 23],
@@ -83,7 +83,7 @@ const num = numArrays[2][1]
 
 console.log('Exercise 14 result:', num)
 //Exercise 15
-let total = 0
+const total = 0
 numArrays.forEach(array => {
     array.forEach(num => {
         total += num
